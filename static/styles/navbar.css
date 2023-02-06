@@ -1,0 +1,60 @@
+.navbar {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-list {
+    display: flex;
+}
+
+
+
+.nav-list a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-btn {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .nav-btn {
+        font-size: 2em;
+        padding-inline: 10px;
+        padding-bottom: 3px;
+        border: none;
+        background-color: rgb(255, 255, 255);
+        color: white;
+        display: block;
+        cursor: pointer;
+    }
+    .nav-list {
+        display: none;
+        cursor: pointer;
+    } 
+    .nav-btn:hover {
+        background-color: rgb(74, 74, 77);
+    }
+    .drop:hover .nav-list {
+        display: block;
+        background-color: rgb(46, 47, 48);
+    }
+}
+
+@media (max-width: 800px) {
+    .container img {
+        width: 360px;
+        margin-inline: 2px;
+    }
+    .house img {
+        width: 380px;
+        margin-inline: 5px;
+    }
+}
