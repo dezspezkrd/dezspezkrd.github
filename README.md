@@ -1,1 +1,1 @@
-# dezspezkrd.github.io
+# dezspezkrd.git
